@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <main class="container py-4">
+        <h1 class="text-center mb-5">Exercícios de JavaScript</h1>
+
+        <!-- EXERCÍCIO 01 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 01</h2>
+            <p class="text-center">
+                Sortear um número entre 0 e 100, exibir o número,
+                seu sucessor e seu antecessor.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Número</h4>
+                    <h5 id="numero01"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Antecessor</h4>
+                    <h5 id="antecessor01"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Sucessor</h4>
+                    <h5 id="sucessor01"></h5>
+                </div>
+            </div>
+            <button id="btn01" class="btn btn-primary w-100">
+                Executar exercício 01
+            </button>
+        </section>
+
+        <!-- EXERCÍCIO 02 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 02</h2>
+            <p class="text-center">
+                Sortear um número entre 0 e 100, exibir este número
+                e mostrar o mesmo acrescido de 15%.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Número</h4>
+                    <h5 id="numero02"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor acrescido de 15%</h4>
+                    <h5 id="valor02"></h5>
+                </div>
+            </div>
+            <button id="btn02" class="btn btn-primary w-100">
+                Executar exercício 02
+            </button>
+        </section>
+
+
+        <!-- EXERCÍCIO 03 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 03</h2>
+            <p class="text-center">
+                Sortear um número entre 0 e 100, exibir este número
+                e mostrar o mesmo com desconto de 25%.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Número</h4>
+                    <h5 id="numero03"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor do desconto</h4>
+                    <h5 id="desconto03"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor final</h4>
+                    <h5 id="valorFinal03"></h5>
+                </div>
+            </div>
+            <button id="btn03" class="btn btn-primary w-100">
+                Executar exercício 03
+            </button>
+        </section>
+
+
+        <!-- EXERCÍCIO 04 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 04</h2>
+            <p class="text-center">
+                Sortear três números entre 0 e 100, exibir estes números
+                e mostrar o triplo da soma dos números sorteados.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Primeiro número</h4>
+                    <h5 id="numero01Ex04"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Segundo número</h4>
+                    <h5 id="numero02Ex04"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Terceiro número</h4>
+                    <h5 id="numero03Ex04"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Triplo da soma</h4>
+                    <h5 id="resultado04"></h5>
+                </div>
+            </div>
+            <button id="btn04" class="btn btn-primary w-100">
+                Executar exercício 04
+            </button>
+        </section>
+
+
+        <!-- EXERCÍCIO 05 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 05</h2>
+            <p class="text-center">
+                Sortear dois números entre 0 e 100, calcular e exibir
+                a soma, o produto e o quociente entre eles.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Primeiro número</h4>
+                    <h5 id="numero01Ex05"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Segundo número</h4>
+                    <h5 id="numero02Ex05"></h5>
+                </div>
+            </div>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Soma</h4>
+                    <h5 id="soma05"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Produto</h4>
+                    <h5 id="produto05"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Quociente</h4>
+                    <h5 id="quociente05"></h5>
+                </div>
+            </div>
+            <button id="btn05" class="btn btn-primary w-100">
+                Executar exercício 05
+            </button>
+        </section>
+
+
+        <!-- EXERCÍCIO 06 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 06</h2>
+            <p class="text-center">
+                Sortear três números entre 0 e 10, representando notas
+                de um aluno. Calcular e exibir a média aritmética dessas notas.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Nota 01</h4>
+                    <h5 id="nota01"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Nota 02</h4>
+                    <h5 id="nota02"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Nota 03</h4>
+                    <h5 id="nota03"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Média</h4>
+                    <h5 id="media06"></h5>
+                </div>
+            </div>
+            <button id="btn06" class="btn btn-primary w-100">
+                Executar exercício 06
+            </button>
+        </section>
+
+
+        <!-- EXERCÍCIO 07 -->
+        <section class="border rounded p-4 mb-4">
+            <h2 class="text-center mb-4">Exercício 07</h2>
+            <p class="text-center">
+                Sortear dois números: um representando o valor de um produto,
+                entre 0 e 1000, e outro representando a porcentagem de desconto,
+                entre 0 e 50. Calcular e exibir o valor do desconto e o valor
+                final do produto com desconto.
+            </p>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor do produto</h4>
+                    <h5 id="produto07"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Porcentagem de desconto</h4>
+                    <h5 id="porcentagem07"></h5>
+                </div>
+            </div>
+            <div class="d-flex gap-2 my-3">
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor do desconto</h4>
+                    <h5 id="valorDesconto07"></h5>
+                </div>
+                <div class="text-center border rounded flex-fill py-3">
+                    <h4 class="mb-2">Valor final</h4>
+                    <h5 id="valorFinal07"></h5>
+                </div>
+            </div>
+            <button id="btn07" class="btn btn-primary w-100">
+                Executar exercício 07
+            </button>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
